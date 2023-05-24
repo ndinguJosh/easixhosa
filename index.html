@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <script src="helloworld.js"></script>
+</head>
+<!-- this HTML documet contains simple code to call the helloworld.js script and display the result of the calculateDaysBetweenDates() function-->
+<body>
+    <h1>Home</h1>
+    <p>Days between 1/1/2019 and 1/1/2020: <span id="daysBetweenDates">
+        <script>
+            document.getElementById("daysBetweenDates").innerHTML = calculateDaysBetweenDates("1/1/2019", "1/1/2020");
+        </script>
+    </span></p>
+</body>
+</html>
